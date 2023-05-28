@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[3]:
 
 
 from kafka import KafkaProducer
@@ -10,7 +9,6 @@ import json
 # Create a Kafka producer
 producer = KafkaProducer(bootstrap_servers='localhost:9092')
 
-# Define the click event data
 click_event = {
     'user_id': '123',
     'timestamp': '2023-05-14T12:34:56',
